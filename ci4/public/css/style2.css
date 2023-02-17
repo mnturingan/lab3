@@ -1,6 +1,4 @@
-/* image grid gallery */
-
-img {
+.gallery-container img {
   height: 300px;
   width: 300px;
   border-radius: 10px;
@@ -31,4 +29,12 @@ img {
 
 .image-grid-row-2 {
   grid-row: span 2;
+}
+
+/* Anything udner 1024px */
+@media screen and (max-width: 1024px) {
+  .image-grid {
+    --num-cols: 2;
+    --row-height: 200px;
+  }
 }
