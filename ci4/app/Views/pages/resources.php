@@ -1,6 +1,5 @@
-
-         <main>
-            <h1> <i class="fa-brands fa-sourcetree"></i> Resources:</h1>
+<main>
+    <h1> <i class="fa-brands fa-sourcetree"></i> Resources:</h1>
             <div class="grid-container-reso">
                 <div class="grid">
                     <img src="https://theme.zdassets.com/theme_assets/10762632/6af7614fecaee75dbb8dde8eda677249600c991a.png" alt="W3Schoolso">
@@ -30,10 +29,9 @@
                     <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" alt="Pinterest-logo">
                     <p>Pinterest</p>
                 </div>
-                
             </div>
             <a href="https://github.com/mnturingan/lab2" target="_blank" class="secondary-cta">
                 <i class="fa-brands fa-github"></i> 
                 <span>View Repository</span> 
             </a>
-        </main>
+</main>
