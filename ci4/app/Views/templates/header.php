@@ -14,6 +14,8 @@
 <script src="https://kit.fontawesome.com/8297c50d72.js" crossorigin="anonymous"></script>
     
 <!--Custom CSS-->
+<link rel = "stylesheet" type = "text/css" 
+   href = <?php echo base_url('css/style.css'); ?>>
 
     <title>CodeIgniter Tutorial</title>
 </head>
