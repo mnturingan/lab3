@@ -1,6 +1,7 @@
 <div class="wrapper">
+<h1><i class="fa-solid fa-image"></i> Gallery</h1>
     <main class="gallery-container">
-        <h1><i class="fa-solid fa-image"></i> Gallery</h1>
+        
         <div class="image-grid">
             <img class="image-grid-col-2 image-grid-row-2" src="images/me1.png" alt="pic">
             <img src="images/me2.png" alt="pic">

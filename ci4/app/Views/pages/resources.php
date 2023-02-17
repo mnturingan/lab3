@@ -52,7 +52,7 @@
     <a
       href="https://github.com/mnturingan/lab2"
       target="_blank"
-      class="secondary-cta"
+      class="repository-cta"
     >
       <i class="fa-brands fa-github"></i>
       <span>View Repository</span>
