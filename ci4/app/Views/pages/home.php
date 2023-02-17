@@ -4,7 +4,7 @@
             <h1>Hi, I'm Mark and this is my personal page.</h1>
                 <p>A simple page about my (un)interesting life.</p>
             <div class="cta-btns">
-                <a href="about.html" class="primary-cta">
+                <a href="about" class="primary-cta">
                     <i class="fa-solid fa-arrow-right"></i> 
                     <span>Let's Go</span> 
                 </a>
