@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+
+<!--Favicon-->
+<link rel="icon" type="image/x-icon" href="images/pfp-me.png">
+        
+<!--Custom Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+<!--Fontawesome-->
+<script src="https://kit.fontawesome.com/8297c50d72.js" crossorigin="anonymous"></script>
+    
+<!--Custom CSS-->
+
+    <title>CodeIgniter Tutorial</title>
+</head>
+<body>
+
+<div class="wrapper">
+    <header>
+        <b><a href="home">mnturingan</a></b>
+        <nav>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About Me</a></li>
+                <li><a href="resources">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
