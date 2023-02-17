@@ -22,7 +22,7 @@
    href = <?php echo base_url('css/style3.css'); ?>>
 
 
-    <title>CodeIgniter Tutorial</title>
+    <title>Page ni Mark</title>
 </head>
 <body>
 
