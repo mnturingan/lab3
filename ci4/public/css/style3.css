@@ -8,6 +8,16 @@
   display: flex;
   justify-content: center;
 }
+
+.grid img {
+  height: 100px;
+  width: 100px;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: ce;
+  margin: auto;
+}
+
 .repository-cta {
   background-color: #9bf8f3;
   text-decoration: none;

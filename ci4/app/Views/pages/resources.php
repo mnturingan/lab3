@@ -1,6 +1,6 @@
 <div class="wrapper">
+<h1><i class="fa-brands fa-sourcetree"></i> Resources:</h1>
   <main>
-    <h1><i class="fa-brands fa-sourcetree"></i> Resources:</h1>
     <div class="grid-container-reso">
       <div class="grid">
         <img
@@ -49,7 +49,9 @@
         <p>Pinterest</p>
       </div>
     </div>
-    <a
+    
+  </main>
+  <a
       href="https://github.com/mnturingan/lab2"
       target="_blank"
       class="repository-cta"
@@ -57,5 +59,4 @@
       <i class="fa-brands fa-github"></i>
       <span>View Repository</span>
     </a>
-  </main>
 </div>

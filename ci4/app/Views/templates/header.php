@@ -18,6 +18,8 @@
    href = <?php echo base_url('css/style.css'); ?>>
 <link rel = "stylesheet" type = "text/css" 
    href = <?php echo base_url('css/style2.css'); ?>>
+<link rel = "stylesheet" type = "text/css" 
+   href = <?php echo base_url('css/style3.css'); ?>>
 
 
     <title>CodeIgniter Tutorial</title>
