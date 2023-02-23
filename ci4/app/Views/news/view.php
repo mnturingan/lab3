@@ -1,2 +1,3 @@
-<h2><?= esc($news['title']) ?></h2>
+<div class="wrapper"><h2><?= esc($news['title']) ?></h2>
 <p><?= esc($news['body']) ?></p>
+</div>
