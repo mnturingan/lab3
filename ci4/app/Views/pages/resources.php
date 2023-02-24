@@ -51,12 +51,4 @@
     </div>
     
   </main>
-  <a
-      href="https://github.com/mnturingan/lab2"
-      target="_blank"
-      class="repository-cta"
-    >
-      <i class="fa-brands fa-github"></i>
-      <span>View Repository</span>
-    </a>
 </div>
