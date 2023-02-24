@@ -10,12 +10,12 @@
 }
 
 .grid img {
+  display: flex;
   height: 100px;
   width: 100px;
   border-radius: 7px;
   justify-content: center;
-  align-items: ce;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .repository-cta {

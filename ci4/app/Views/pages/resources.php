@@ -1,6 +1,5 @@
 <div class="wrapper">
 <h1><i class="fa-brands fa-sourcetree"></i> Resources:</h1>
-  <main>
     <div class="grid-container-reso">
       <div class="grid">
         <img
@@ -49,6 +48,4 @@
         <p>Pinterest</p>
       </div>
     </div>
-    
-  </main>
 </div>
