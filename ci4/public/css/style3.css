@@ -31,3 +31,9 @@
   justify-content: right;
   align-items: center;
 }
+
+.lessons {
+  margin: 40px;
+  display: grid;
+  gap: 3em;
+}

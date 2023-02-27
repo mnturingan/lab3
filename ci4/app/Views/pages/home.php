@@ -2,13 +2,13 @@
     <main>
         <div class="left-col">
             <h1>Hi, I'm Mark and this is my personal page.</h1>
-                <p>A simple page about my (un)interesting life.</p>
+                <p>A simple profile page I made for APC WEBPROG subject.</p>
             <div class="cta-btns">
-                <a href="about" class="primary-cta">
+                <a href="lessons" class="primary-cta">
                     <i class="fa-solid fa-arrow-right"></i> 
-                    <span>Let's Go</span> 
+                    <span>Lessons</span> 
                 </a>
-                <a href="https://github.com/mnturingan/lab2" target="_blank" class="secondary-cta">
+                <a href="https://github.com/mnturingan/lab3/tree/main/ci4" target="_blank" class="secondary-cta">
                     <i class="fa-brands fa-github"></i> 
                     <span>View Repository</span> 
                 </a>

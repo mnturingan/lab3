@@ -17,6 +17,13 @@
       </div>
       <div class="grid">
         <img
+          src="https://www.zdnet.com/a/img/resize/44cb4343f342b683972621a6113a88cbaeff547e/2022/03/01/33b5e401-651b-4108-8fcf-6b6fa5670039/screen-shot-2022-03-01-at-11-24-49-am.png?width=770&height=578&fit=crop&format=pjpg&auto=webp"
+          alt="MDN Web DOCS"
+        />
+        <p>MDN Web Docs</p>
+      </div>
+      <div class="grid">
+        <img
           src="https://www.ajordison.co.uk/images/YouTube.png"
           alt="Youtube"
         />
