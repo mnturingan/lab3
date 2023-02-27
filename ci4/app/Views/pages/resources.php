@@ -37,6 +37,13 @@
         <p>Stack Overflow</p>
       </div>
       <div class="grid">
+        <img
+          src="https://th.bing.com/th/id/R.840f87670a36de38155f49b12c6443f4?rik=F3Pg84u3Q44vaQ&riu=http%3a%2f%2ffreevector.co%2fwp-content%2fuploads%2f2012%2f06%2fcodeigniter.png&ehk=KdEy4B8YWBWVgtO%2fa4rktOPxmaK0vlpoqQqScDEnMAA%3d&risl=&pid=ImgRaw&r=0"
+          alt="Stack_Overflow"
+        />
+        <p>Stack Overflow</p>
+      </div>
+      <div class="grid">
         <img src="https://coolors.co/assets/img/logo.svg" alt="Coolors" />
         <p>Coolors</p>
       </div>
