@@ -17,5 +17,6 @@
     <br>
 
     <input class="primary-cta" type="submit" name="submit" value="Create news item">
+    <br>
 </form>
 </div>

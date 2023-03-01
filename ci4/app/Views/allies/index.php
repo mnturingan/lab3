@@ -10,7 +10,7 @@
         <div class="main">
             <h3><?= esc($allies_item['firstname']) ?> <?= esc($allies_item['lastname']) ?> </h3>
             <p><? = esc($allies_item['email']) ?> </p>
-            <p><? = esc($allies_item['reg_date']) ?> </p>
+            <p><? = esc($allies_item['website']) ?> </p>
         </div>
 
     <?php endforeach ?>
