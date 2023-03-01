@@ -31,9 +31,13 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
-
+use App\Controllers\Allies;
 use App\Controllers\News;
 use App\Controllers\Pages;
+
+//allies routes
+$routes->match(['get', 'post'], 'allies/create', [Allies::class, 'create']);
+$routes->get('allies/(:segment)', [Allies::class, 'view']);
 
 $routes->match(['get', 'post'], 'news/create', [News::class, 'create']);
 $routes->get('news/(:segment)', [News::class, 'view']);
