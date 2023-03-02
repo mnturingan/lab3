@@ -4,7 +4,7 @@
 <?= session()->getFlashdata('error') ?>
 <?= validation_list_errors() ?>
 
-<form action="create" method="post">
+<form action="join" method="post">
     <?= csrf_field() ?>
 
     <label for="firstname">First Name</label>
@@ -28,8 +28,8 @@
     <br>
 
     <label for="gender">Gender</label>
-    <input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="female">Female
     <input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="male">Male
+    <input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="female">Female
     <input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?> value="other">Other
     <br>
 

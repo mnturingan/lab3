@@ -4,14 +4,14 @@
 <?php if (! empty($allies) && is_array($allies)): ?>
 
     <?php foreach ($allies as $allies_item): ?>
-
-        <h3><?= esc($allies_item['title']) ?></h3>
-
+        
+        <h3><?= esc($allies_item['id']) ?> - <?= esc($allies_item['firstname']) ?> <?= esc($allies_item['lastname']) ?></h3>
         <div class="main">
-            <h3><?= esc($allies_item['firstname']) ?> <?= esc($allies_item['lastname']) ?> </h3>
-            <p><? = esc($allies_item['email']) ?> </p>
-            <p><? = esc($allies_item['website']) ?> </p>
+        <p>Email: <?= esc($allies_item['email']) ?> <br>
+        <p>Website: <?= esc($allies_item['website']) ?> <br>
+        <p>Gender: <?= esc($allies_item['gender']) ?> <br>
         </div>
+        
 
     <?php endforeach ?>
 

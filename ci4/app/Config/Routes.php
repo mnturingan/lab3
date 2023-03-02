@@ -36,8 +36,9 @@ use App\Controllers\News;
 use App\Controllers\Pages;
 
 //allies routes
-$routes->match(['get', 'post'], 'allies/create', [Allies::class, 'create']);
+$routes->match(['get', 'post'], 'allies/join', [Allies::class, 'join']);
 $routes->get('allies/(:segment)', [Allies::class, 'view']);
+$routes->get('allies', [Allies::class, 'index']);
 
 $routes->match(['get', 'post'], 'news/create', [News::class, 'create']);
 $routes->get('news/(:segment)', [News::class, 'view']);

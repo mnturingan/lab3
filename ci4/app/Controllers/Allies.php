@@ -10,17 +10,17 @@ class Allies extends BaseController
     {
         $model = model(AlliesModel::class);
 
-		$data = [
+        $data = [
             'allies'  => $model->getAllies(),
             'title' => 'Alliances',
         ];
 
         return view('templates/header', $data)
-             . view('allies/index')
-             . view('templates/footer');
+            . view('allies/index')
+            . view('templates/footer');
     }
 	
-	public function create()
+	public function join()
     {
         helper('form');
 
@@ -40,7 +40,6 @@ class Allies extends BaseController
             'lastname' => 'required|max_length[255]|min_length[3]',
             'email' => 'required|max_length[255]|min_length[3]',
             'website' => 'required|max_length[255]|min_length[3]',			
-            'comment'  => 'required|max_length[5000]|min_length[10]',
             'gender' => 'required|max_length[255]|min_length[3]',			
         ])) {
             // The validation fails, so returns the form.
@@ -56,7 +55,6 @@ class Allies extends BaseController
             'lastname' => $post['lastname'],
             'email'  => $post['email'],
             'website'  => $post['website'],
-            'comment'  => $post['comment'],
             'gender'  => $post['gender'],
         ]);
 
