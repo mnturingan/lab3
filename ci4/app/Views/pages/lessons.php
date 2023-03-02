@@ -15,12 +15,12 @@
             <h1>Register</h1>
             <p>Setting up a database and a model where you retrieve, insert and update information in the database.</p>
             <div class="cta-btns">
-                <a href="news/create" class="primary-cta">
-                    <i class="fa-solid fa-plus"></i> 
+                <a href="allies/join" class="primary-cta">
+                    <i class="fa-solid fa-user"></i>
                     <span>Register</span> 
                 </a>
-                <a href="news" class="secondary-cta">
-                    <i class="fa-solid fa-newspaper"></i>
+                <a href="allies" class="secondary-cta">
+                    <i class="fa-solid fa-people-group"></i>
                     <span>View Registrations</span> 
                 </a>
             </div>
